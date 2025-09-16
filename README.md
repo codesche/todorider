@@ -3,3 +3,4 @@
 | :---: | :-------: | :-------: |
 |spring| https://codesche.oopy.io/26ede3f7-e3a8-80bd-b14c-ce55ba764da1 | Spring 학습 내용|
 |network| https://codesche.oopy.io/26fde3f7-e3a8-80ed-9536-e85b68a9dacf | Network 학습 내용|
+|computer-science|https://codesche.oopy.io/270de3f7-e3a8-80c5-af2d-d1a8ccf75310| cs 학습 내용
