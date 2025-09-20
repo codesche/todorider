@@ -6,3 +6,4 @@
 |computer-science| cs 학습 내용 |
 |design-pattern| 디자인 패턴 학습 내용 |
 |articles| 기술문서 및 경험 내용 |
+|os| 운영체제 학습 내용 |
