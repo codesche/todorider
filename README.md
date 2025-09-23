@@ -9,3 +9,4 @@
 |os| 운영체제 학습 내용 |
 |database| 데이터베이스 학습 내용 |
 |ai | ai 학습 내용 |
+|infra|infra 학습 내용 |
