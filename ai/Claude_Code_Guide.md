@@ -2,7 +2,6 @@
 
 > Claude Code를 효율적으로 활용하기 위한 종합 가이드
 
----
 
 ## 📥 설치 및 초기 설정
 
@@ -23,7 +22,7 @@ claude --dangerously-skip-permissions
 ```
 > ⚠️ **주의**: 권한 확인 없이 모든 작업을 허용합니다. 신뢰할 수 있는 환경에서만 사용해야 한다.
 
----
+<br/>
 
 ## 🎯 모델 선택 가이드
 
@@ -41,7 +40,7 @@ claude --dangerously-skip-permissions
 
 > 💡 **팁**: 복잡한 작업이 필요하면 Max 플랜 또는 API 크레딧 별도 구매
 
----
+<br/>
 
 ## 🎮 필수 슬래시 명령어
 
@@ -65,7 +64,7 @@ claude --dangerously-skip-permissions
 ```
 > 또는 "이 프로젝트에 대한 정보를 CLAUDE.md 파일로 만들어줘"라고 직접 요청 가능
 
----
+<br/>
 
 ## 🐙 GitHub 연동 기능
 
@@ -81,7 +80,7 @@ claude --dangerously-skip-permissions
 /bug                 # 버그 리포트 전송
 ```
 
----
+<br/>
 
 ## 🚀 고급 활용 팁
 
@@ -95,7 +94,7 @@ claude --dangerously-skip-permissions
 2. **Pro 플랜에서 Opus 4 기대**: Pro는 Sonnet 4만 지원
 3. **권한 스킵 남용**: 보안상 위험할 수 있음
 
----
+<br/>
 
 ## 🔌 MCP (Model Context Protocol) 확장
 
@@ -111,7 +110,7 @@ claude --dangerously-skip-permissions
 
 > 💡 **팁**: "Awesome" 키워드가 붙은 MCP를 설치하면 해당 분야의 최신 파일과 정보까지 인식 가능!
 
----
+<br/>
 
 ## 🎯 실전 사용 시나리오
 
@@ -132,7 +131,7 @@ claude --dangerously-skip-permissions
 2. GitHub App 연동으로 자동 PR 리뷰
 3. `/bug`로 이슈 리포팅
 
----
+<br/>
 
 ## 🔗 참고 자료
 
@@ -142,7 +141,7 @@ claude --dangerously-skip-permissions
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)
 - [Official MCP Servers](https://github.com/modelcontextprotocol/servers)
 
----
+<br/>
 
 ## ⚡ Quick Reference
 
@@ -160,12 +159,9 @@ claude --dangerously-skip-permissions
 /commit       # 📦 Git 커밋
 /diff         # 🔍 변경사항 확인
 ```
-
----
+<br/>
 
 > 💡 **Pro Tip**: `/clear`는 사용하는 게 좋기는 하지만 
 `/compact` 를 활용해서 진행했던 내용을 요약하는 방향으로 사용하는 게 더 효율적이다.
 >
 > 🚀 **Advanced**: MCP 서버를 적극 활용하면 Claude Code의 진가를 경험할 수 있다! (단, 토큰 비용이 든다는 점을 감안해야 한다)
-
----
