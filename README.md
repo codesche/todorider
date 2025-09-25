@@ -11,3 +11,4 @@
 |ai | ai 학습 내용 |
 |infra|infra 학습 내용 |
 |java|java 학습 내용|
+|kotlin|kotlin 학습 내용|
