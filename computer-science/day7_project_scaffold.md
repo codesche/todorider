@@ -1,4 +1,4 @@
-# Day 7 — Spring Boot 실무화: 프로젝트 스캐폴드 & 품질 가드
+# Day 7 — Spring Boot 실무화
 
 ## 1. 핵심 요약
 
