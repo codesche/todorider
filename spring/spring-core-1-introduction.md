@@ -1,10 +1,12 @@
 # 🌱 Spring Framework: Core Technologies
 
-## 1. Introduction to the Spring IoC Container and Beans
+## 원본 링크
+https://codesche.oopy.io/28ade3f7-e3a8-8025-8636-e901d44f428a
 
-------------------------------------------------------------------------
+## 참고 링크
+[Introduction to the Spring IoC Container and Beans](https://docs.spring.io/spring-framework/reference/core/beans/introduction.html)
 
-### 🧩 원문
+## 원문
 
 This chapter covers the Spring Framework implementation of the Inversion
 of Control (IoC) principle.\

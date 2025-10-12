@@ -1,9 +1,16 @@
 
 # 📘 [Spring 공식문서 읽기] Spring Framework Overview 1
 
+## 원본 링크
+https://codesche.oopy.io/287de3f7-e3a8-80d0-923c-e67afa6a654c
+
+## 참고 링크
+[Spring Framework Overview 공식 문서](https://docs.spring.io/spring-framework/reference/overview.html)
 
 ## 🧭 목차
 - [📘 \[Spring 공식문서 읽기\] Spring Framework Overview 1](#-spring-공식문서-읽기-spring-framework-overview-1)
+  - [원본 링크](#원본-링크)
+  - [참고 링크](#참고-링크)
   - [🧭 목차](#-목차)
   - [🌱 Spring이 제공하는 것 (원문 1)](#-spring이-제공하는-것-원문-1)
   - [⚙️ 다양한 실행 시나리오 (원문 2)](#️-다양한-실행-시나리오-원문-2)
