@@ -65,16 +65,16 @@ to a factory method)**,\
 ------------------------------------------------------------------------
 
 `org.springframework.beans` 와 `org.springframework.context` 패키지는
-Spring Framework의 **IoC 컨테이너의 핵심 기반**이다.\
+Spring Framework의 **IoC 컨테이너의 핵심 기반**이다.
 `BeanFactory` 인터페이스는 모든 종류의 객체를 관리할 수 있는 **고급 구성
-메커니즘(configuration mechanism)** 을 제공한다.\
+메커니즘(configuration mechanism)** 을 제공한다.
 `ApplicationContext` 인터페이스는 `BeanFactory`를 확장(하위
 인터페이스)하여 다음과 같은 기능을 추가로 제공한다:
 
--   Spring AOP 기능과의 손쉬운 통합\
+-   Spring AOP 기능과의 손쉬운 통합
 -   국제화(i18n)를 위한 **메시지 리소스 처리(message resource
-    handling)**\
--   이벤트 발행(event publication) 기능\
+    handling)**
+-   이벤트 발행(event publication) 기능
 -   웹 애플리케이션 전용 컨텍스트(`WebApplicationContext`) 등,
     **애플리케이션 계층별 컨텍스트 지원**
 
