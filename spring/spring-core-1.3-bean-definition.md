@@ -25,7 +25,7 @@ the `<bean/>` element. This `class` attribute (which, internally, is a
 and Bean Definition Inheritance.)
 ([docs.spring.io](https://docs.spring.io/spring-framework/docs/5.0.x/spring-framework-reference/core.html?utm_source=chatgpt.com))
 
-You can use the `Class` property in one of two ways:\
+You can use the `Class` property in one of two ways:
 - Typically, to specify the bean class to be constructed in the case
 where the container itself directly creates the bean by calling its
 constructor reflectively, somewhat equivalent to Java code with the
@@ -68,10 +68,10 @@ XML 기반의 설정 메타데이터를 사용하는 경우, `<bean/>` 요소의
 사용한 인스턴스화 혹은 **빈 정의 상속(bean definition inheritance)** 을
 참고하라.)
 
-`Class` 속성은 다음 두 가지 방식 중 하나로 사용할 수 있다:\
+`Class` 속성은 다음 두 가지 방식 중 하나로 사용할 수 있다:
 - 일반적으로, 컨테이너가 자체적으로 **반사(reflectively)** 생성자를
 호출하여 빈을 직접 생성하는 경우,\
-`new` 연산자를 사용하는 Java 코드와 유사하게 빈 클래스를 지정한다.\
+`new` 연산자를 사용하는 Java 코드와 유사하게 빈 클래스를 지정한다.
 - 덜 일반적인 경우, 컨테이너가 클래스의 **`static` 팩토리
 메서드(static factory method)** 를 호출하여 객체를 생성하는 경우에는,\
 그 메서드를 포함한 실제 클래스를 지정한다.\
