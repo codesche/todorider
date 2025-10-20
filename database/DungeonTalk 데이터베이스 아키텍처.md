@@ -1,6 +1,7 @@
 # DungeonTalk 데이터베이스 아키텍처
 
-# DungeonTalk 데이터베이스 아키텍처:
+## 블로그 링크
+https://codesche.oopy.io/292de3f7-e3a8-8009-a38f-c2479948ca10
 
 ## DungeonTalk 프로젝트 링크
 
