@@ -101,10 +101,10 @@ public class WorldType {
 public class Member extends BaseEntity {
 
     @Column(name = "name", length = 20, unique = true)
-    private String name; // ✅ 자동 인덱스 생성
+    private String name; // 자동 인덱스 생성
 
     @Column(name = "nick_name", unique = true)
-    private String nickName; // ✅ 자동 인덱스 생성
+    private String nickName; // 자동 인덱스 생성
 }
 ```
 
@@ -171,7 +171,7 @@ public class ChatMessage {
     private String messageId;
 
     @Indexed
-    private String roomId; // ✅ 단일 인덱스
+    private String roomId; // 단일 인덱스
 
     @CreatedDate
     private Instant createdAt;
@@ -213,7 +213,7 @@ public class ChatRoom {
     private String id;
 
     @Indexed
-    private String roomName; // ✅ 방 이름 검색용 인덱스
+    private String roomName; // 방 이름 검색용 인덱스
 }
 ```
 
