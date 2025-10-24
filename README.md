@@ -7,6 +7,7 @@
 |computer-science| cs 학습 내용 |
 |design-pattern| 디자인 패턴 학습 내용 |
 |dev-philosophy|IT 직종에 대한 나의 생각 정리|
+|dev-clean|올바른 개발 방법에 대한 고민|
 |articles| 기술문서 및 경험 내용 |
 |os| 운영체제 학습 내용 |
 |database| 데이터베이스 학습 내용 |
