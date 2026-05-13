@@ -4,7 +4,7 @@
 
 이전 글에서 Spring MVC의 문제를 다뤘다.
 I/O 대기 중에 스레드가 점유 상태로 묶여 있다는 것.
-그러면 "I/O 대기"라는 게 정확히 뭐이고, 대안은 뭔가.
+그러면 "I/O 대기"라는 게 정확히 뭐고, 대안은 뭔가.
 
 Blocking I/O, Non-Blocking I/O, Synchronous, Asynchronous.
 이 네 가지 개념은 종종 혼동되어 쓰인다.
@@ -24,7 +24,7 @@ I/O(Input/Output)는 CPU 외부와의 데이터 접근을 말한다.
 CPU는 매우 빠르다. I/O는 매우 느리다.
 디스크 접근은 CPU보다 10만 배, 네트워크는 더 느리다.
 
-I/O가 일어나는 동안 스레드를 어떻게 다루느냐의 차이가 모델 전체의 성능을 갈른다.
+I/O가 일어나는 동안 스레드를 어떻게 다루느냐의 차이가 모델 전체의 성능을 가른다.
 
 ---
 
@@ -149,7 +149,7 @@ I/O 호출은 즉시 리턴되지만, 완료 확인은 직접 한다. CPU를 낭
 #### Asynchronous Blocking
 
 ```java
-// select/poll 유사 면선 — 이론적 조합
+// select/poll 유사 케이스 — 이론적 조합
 // epoll이 없는 상황에서만 해당 (Linux 2.5 이전)
 fd = select(fds);           // 변화 발생할 때까지 대기 (blocking)
 process(fd.data());         // 큐에서 데이터 가져옴 (async fetch)
@@ -268,7 +268,7 @@ Kafka 컨슈머는 Async Non-Blocking에 가깝다.
 
 | 개념 | 핵심 |
 |---|---|
-| Blocking I/O | I/O 동안 스레드 진단. 단순하지만 스레드 자원 낭비 |
+| Blocking I/O | I/O 동안 스레드 대기. 단순하지만 스레드 자원 낭비 |
 | Non-Blocking I/O | I/O 호출 즉시 리턴. epoll로 완료 시점 감지 |
 | Synchronous | 호출한 스레드가 직접 결과 확인/처리 |
 | Asynchronous | 콜백/이벤트로 결과 통보. 처리는 다른 흐름에서 |
